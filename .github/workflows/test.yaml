@@ -5,3 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World"
+      - run: echo ${{env.DYN_VAR}}
+      - run: git status
